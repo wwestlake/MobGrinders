@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mobgrinders",
+  "name": "Mob Griunders",
+  "description": "A mod for building sophisticated mob grinders.",
+  "version": "0.0.1",
+  "mcversion": "1.11.2",
+  "url": "https://github.com/wwestlake/MobGrinders",
+  "updateUrl": "https://github.com/wwestlake/MobGrinders",
+  "authorList": ["LagDaemon"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

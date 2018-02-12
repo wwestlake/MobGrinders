@@ -1,5 +1,7 @@
 package com.lagdaemon.minecraft.mobgrinders.core;
 
+import net.minecraft.util.ResourceLocation;
+
 public class Reference {
 
 	public static final String MODID = "mobgrinders";
@@ -10,5 +12,10 @@ public class Reference {
 	
 	public static final String SERVER_PROXY_CLASS = "com.lagdaemon.minecraft.mobgrinders.core.proxy.CommonProxy";
 	public static final String CLIENT_PROXY_CLASS = "com.lagdaemon.minecraft.mobgrinders.core.proxy.ClientProxy";
+	
+	public static ResourceLocation getResourceLocation(String unlocalizedName) {
+		return new ResourceLocation(MODID, unlocalizedName);
+	}
+	
 	
 }

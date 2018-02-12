@@ -8,4 +8,7 @@ public class Reference {
 	public static final String AUTHOR = "LagDaemon (Bill Westlake)";
 	public static final String AUTHOR_EMAIL = "wwestlake@lagdaemon.com";
 	
+	public static final String SERVER_PROXY_CLASS = "com.lagdaemon.minecraft.mobgrinders.core.proxy.CommonProxy";
+	public static final String CLIENT_PROXY_CLASS = "com.lagdaemon.minecraft.mobgrinders.core.proxy.ClientProxy";
+	
 }
